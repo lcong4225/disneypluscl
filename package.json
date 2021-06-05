@@ -4,9 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-           "build": "cd src && npm run build",
-        "install-client": "cd src && npm install",
-        "heroku-postbuild": "npm run install-client && npm run build",
+       
         "start": "nodemon --inspect src/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
